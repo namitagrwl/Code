@@ -1,6 +1,7 @@
 from typing import List
 
 def binarySearchRecursive(arr: List[int], ele: int, left: int, right: int) -> int:
+    
     if right < left:
         return -1
     
